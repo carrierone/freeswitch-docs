@@ -924,19 +924,21 @@ Stop background tone detection with cadence
 
 #### APIs
 
-start\_tone\_detect
+spandsp\_start\_tone\_detect
 
 Start background tone detection with cadence
 
-start_tone_detect \<uuid> \<descriptor name>
+spandsp\_start_tone_detect \<uuid> \<descriptor name>
 
-stop\_tone\_detect
+spandsp\_stop\_tone\_detect
 
 Stop background tone detection with cadence
 
-stop_tone_detect \<uuid>
+spandsp\_stop_tone_detect \<uuid>
 
 #### Events
+
+You will need to connect to the ESL socket in order to pick up tone events from spandsp\_start\_tone\_detect.
 
 DETECTED\_TONE
 
